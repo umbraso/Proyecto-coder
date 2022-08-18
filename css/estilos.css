@@ -1,0 +1,500 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cairo&family=Playfair+Display:wght@600&family=Roboto+Condensed:ital@1&display=swap");
+* {
+  font-family: "Bebas Neue", cursive;
+  margin: 0;
+  padding: 0;
+}
+/*INDEX*/
+/*Navegador*/
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+header {
+  display: flex;
+  padding: 10px 4%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+li,
+a {
+  text-align: right;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+/*interconexion*/
+
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+.interconexion {
+  list-style: none;
+}
+
+.interconexion li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.interconexion li a {
+  color: white;
+}
+
+.container {
+  border: 5px solid black;
+}
+
+/*Subtitulo*/
+
+.destacadosemana {
+  padding-top: 4px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/*iframe*/
+
+.video {
+  width: 100%;
+  height: auto;
+}
+
+.marco {
+  display: flex;
+  height: 500px;
+  width: auto;
+}
+
+.border {
+  border: 2px ridge black;
+}
+
+/*Contenido multimedia*/
+
+.background__superior {
+  background-image: url(../multimedia/pexels-elti-meshau-333850.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.background {
+  background-image: url(../multimedia/fondobk.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.multimedia {
+  display: grid;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  width: 100%;
+}
+
+.multimedia div img {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  width: auto;
+  margin: 20px;
+}
+.titulo {
+  color: white;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
+
+.p__producto {
+  background-color: rgba(128, 128, 128, 0.212);
+  border: 1px solid black;
+  color: white;
+  text-align: left;
+  padding: 15px;
+  margin-left: 10px;
+}
+
+.img__index {
+  box-shadow: 0px 0px 15px rgb(46, 2, 2);
+}
+
+.separador {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.separador p {
+  display: inline-block;
+  align-items: center;
+}
+
+.container__productos--index {
+  padding-right: 80px;
+  position: relative;
+  bottom: 100px;
+}
+
+.container__productos--font {
+  background-color: rgba(128, 128, 128, 0.212);
+  border: 1px solid black;
+  color: white;
+  float: right;
+  margin: 20px;
+  padding: 15px;
+  height: auto;
+  width: 50%;
+}
+
+.link__new:hover {
+  background-color: rgba(128, 128, 128, 0.212);
+  border: 1px solid black;
+}
+
+/*Background inferior y cajas relativas*/
+
+.contenedor {
+  height: auto;
+  width: auto;
+  padding-left: 80px;
+  padding-bottom: 20px;
+}
+
+.box img {
+  height: 300px;
+  width: auto;
+  box-shadow: 0px 0px 15px rgb(255, 255, 255);
+}
+
+.box {
+  height: 300px;
+  width: auto;
+}
+
+#b1 {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#b2 {
+  position: sticky;
+  top: 50px;
+  left: 100px;
+}
+
+/*Footer*/
+
+footer p {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+/*PRODUCTOS*/
+/*Subtitulo*/
+
+.background__productos {
+  background-image: url(../multimedia/fondoconhumo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.destacados__productos {
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  padding-top: 2px;
+  text-align: center;
+}
+
+.fotos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-row: auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  padding: 15px;
+}
+
+/*lista de subitems*/
+
+.stock {
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.877);
+}
+
+.stock li {
+  display: inline-block;
+}
+
+.stock ul {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.stock li a {
+  color: white;
+}
+
+/*multimedia de subitems*/
+
+.img__stock {
+  border: 2px solid black;
+  width: auto;
+  height: 300px;
+}
+
+.titulo__productos {
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  text-align: center;
+  padding-top: 3px;
+}
+
+/*NEWS*/
+
+.titulo__new {
+  background-color: rgba(0, 0, 0, 0.877);
+  color: white;
+  padding: 8px;
+  text-align: center;
+}
+
+/*Video*/
+
+.video__new {
+  border: 4px solid black;
+  width: 100%;
+}
+
+/*background*/
+
+.contenedor__new {
+  background-image: url(../multimedia/img_new/pexels-kei-scampa-6021563.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding-top: 5px;
+}
+
+.img__new1 {
+  height: 300px;
+  width: auto;
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 25px;
+  /* box-shadow: 0px 0px 15px rgb(255 255 255); */
+}
+
+.img__new2 {
+  height: 300px;
+  width: auto;
+  padding-left: 950px;
+  padding-top: 150px;
+}
+
+.subtitulo__new {
+  color: white;
+  padding-left: 320px;
+  padding-top: 100px;
+}
+
+.font__new {
+  color: white;
+  padding-left: 320px;
+  padding-top: 5px;
+}
+
+.boton__new {
+  width: 50%;
+}
+
+.boton__font {
+  color: white;
+  background-color: rgba(128, 128, 128, 0.301);
+  border: 1px solid white;
+  position: absolute;
+  padding: 10px 10px;
+  top: 1350px;
+  left: 250px;
+}
+
+.boton__new a:hover {
+  background-color: black;
+  transition: all 0.8s;
+  border: 1px solid grey;
+}
+
+.container__productos--index
+
+/*DROPS*/
+/*video, titulo y fuentes*/
+
+.contenedor__drops {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.video__drops {
+  width: 100%;
+  height: 100%;
+}
+
+.titulo__drops {
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*fuentes y video de background*/
+
+.font__drops {
+  font-family: "Bebas Neue", cursive;
+  font-size: 80px;
+  font-weight: 900;
+  z-index: 100;
+  margin-bottom: 30px;
+}
+
+.font__drops::after {
+  display: block;
+  width: 30%;
+  height: 10px;
+  margin: auto;
+  background: white;
+}
+
+/*CONTACTO*/
+
+/*inicione de sesion*/
+
+.contenedor__contacto {
+  color: white;
+  background-image: url(../multimedia/img_contacto/fondobkcon.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.contenedor__iniciosesion {
+  text-align: center;
+}
+
+/*mapa*/
+
+.mapa__contacto {
+  color: white;
+  padding-left: 15px;
+}
+
+.mapa {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.interconexion i {
+  display: none;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 414px) {
+  .background__superior {
+    height: 1050px;
+    width: 100%;
+  }
+
+  .multimedia {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .p__producto {
+    width: 85%;
+  }
+
+  .background {
+    height: 1100px;
+  }
+
+  #b2 {
+    top: 2040px;
+    right: 30px;
+    position: absolute;
+  }
+
+  .contenedor {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container__productos--index {
+    min-width: 600px;
+    top: 350px;
+    right: 300px;
+  }
+
+  .img__index {
+    align-self: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  .interconexion ul li i {
+    display: inline-block;
+    color: white;
+  }
+
+  .interconexion a,
+  input {
+    display: none;
+  }
+
+  .interconexion li {
+    width: 10px;
+  }
+
+  /* formulario inicio de sesion*/
+
+  .contenedor__iniciosesion {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .iframe {
+    width: 80%;
+  }
+
+  .contenedor__contacto {
+    height: 920px;
+  }
+}
