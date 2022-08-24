@@ -9,6 +9,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/estilos.css" />
     <title>Pagina ropa</title>
   </head>
@@ -52,7 +58,7 @@
 
     <!--Video y container-->
 
-    <div class="container">
+    <div class="contenedor">
       <div class="destacadosemana">
         <h2>Destacado de la semana</h2>
       </div>
@@ -73,36 +79,35 @@
 
     <!--Productos con fondo rojo-->
 
-    <div class="background__superior">
-      <div class="multimedia">
-        <div class="producto">
-          <img class="img__index" src="multimedia/fotoroja.jpg" alt="modelo1" />
-
-          <h3 class="titulo" id="t1">Producto</h3>
-          <div>
-            <p class="p__producto">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Repellendus, necessitatibus quasi perferendis ipsam saepe facilis
-              ratione veritatis ex debitis ducimus esse nisi fugit vitae in iste
-              optio! Perferendis similique odit esse totam facere. Totam, et!
+    <div class="container-fluid background__superior">
+      <div class="row">
+        <div class="col">
+          <img class="img__index" src="/multimedia/fotoroja.jpg" alt="" />
+        </div>
+        <div class="col">
+          <img class="img__index" src="/multimedia/fotoroja2.jpg" alt="" />
+        </div>
+        <div class="row">
+          <div class="col p__producto">
+            Producto
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
+              accusamus ipsum esse eos molestias, dicta nobis iure ipsa animi
+              vitae et odit perferendis incidunt! Laboriosam, temporibus
+              adipisci! Pariatur non deserunt rem accusantium, earum corporis
+              odio. Cupiditate sapiente modi at odit nesciunt vero sequi
+              similique autem, ratione, qui exercitationem nostrum maxime.
             </p>
           </div>
-        </div>
-
-        <div class="producto2">
-          <img
-            class="img__index"
-            src="multimedia/fotoroja2.jpg"
-            alt="modelo2"
-          />
-
-          <h3 class="titulo" id="t2">Producto 2</h3>
-          <div class="palabras">
-            <p class="p__producto">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Repellendus, necessitatibus quasi perferendis ipsam saepe facilis
-              ratione veritatis ex debitis ducimus esse nisi fugit vitae in iste
-              optio! Perferendis similique odit esse totam facere. Totam, et!
+          <div class="col p__producto">
+            Producto 2
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. In nisi,
+              ipsum saepe, ad obcaecati explicabo maiores animi, amet facere qui
+              illum. Officia maiores natus explicabo nobis quis doloremque, iure
+              reiciendis repellendus neque facere asperiores, cupiditate autem
+              labore numquam debitis ut! Rem nemo libero doloremque tempore
+              vero, inventore eaque iste! Dolor.
             </p>
           </div>
         </div>

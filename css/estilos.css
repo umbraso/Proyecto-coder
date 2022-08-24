@@ -47,7 +47,7 @@ a {
   color: white;
 }
 
-.container {
+.contenedor {
   border: 5px solid black;
 }
 
@@ -91,25 +91,6 @@ a {
   background-size: cover;
 }
 
-.multimedia {
-  display: grid;
-  justify-content: space-between;
-  padding-bottom: 10px;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto;
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-  width: 100%;
-}
-
-.multimedia div img {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 300px;
-  width: auto;
-  margin: 20px;
-}
 .titulo {
   color: white;
   padding-left: 20px;
@@ -123,11 +104,15 @@ a {
   color: white;
   text-align: left;
   padding: 15px;
-  margin-left: 10px;
+  margin: 10px;
+  margin-top: 20px;
 }
 
 .img__index {
   box-shadow: 0px 0px 15px rgb(46, 2, 2);
+  width: 250px;
+  height: 100%;
+  margin: 10px;
 }
 
 .separador {
@@ -397,7 +382,7 @@ footer p {
 
 /*inicione de sesion*/
 
-.contenedor__contacto {
+.background__contacto {
   color: white;
   background-image: url(../multimedia/img_contacto/fondobkcon.jpg);
   background-position: center;
@@ -406,6 +391,17 @@ footer p {
 
 .contenedor__iniciosesion {
   text-align: center;
+}
+
+.contenedor__formulario {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fomurlario__contenedor {
+  justify-content: center;
 }
 
 /*mapa*/
