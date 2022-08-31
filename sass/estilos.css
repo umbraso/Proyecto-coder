@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*DROPS*/
+.contenedor__drops {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.contenedor__drops .video__drops {
+  width: 100%;
+  height: 100%;
+}
+.contenedor__drops .titulo__drops {
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=estilos.css.map */
