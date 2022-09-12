@@ -47,34 +47,18 @@ a {
   color: white;
 }
 
-.contenedor {
-  border: 5px solid black;
+.fondo-home {
+  height: 750px;
+  background-image: url(../multimedia/pexels-sebastiaan-stam-1097456.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
-/*Subtitulo*/
-
-.destacadosemana {
-  padding-top: 4px;
-  background-color: black;
+.eslogan {
   color: white;
+  display: block;
   text-align: center;
-}
-
-/*iframe*/
-
-.video {
-  width: 100%;
-  height: auto;
-}
-
-.marco {
-  display: flex;
-  height: 500px;
-  width: auto;
-}
-
-.border {
-  border: 2px ridge black;
+  padding-top: 50px;
 }
 
 /*Contenido multimedia*/
